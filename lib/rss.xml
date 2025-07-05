@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[my research]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>my research</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 05 Jul 2025 02:48:57 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 05 Jul 2025 02:48:56 GMT</pubDate><copyright><![CDATA[Md Habibor Rahman Hira]]></copyright><ttl>60</ttl><dc:creator>Md Habibor Rahman Hira</dc:creator><item><title><![CDATA[AI and Machine Learning Learning Roadmap with Book Recommendations]]></title><description><![CDATA[ 
+ <br><br>Book Name: <a data-href="_OceanofPDF.com_Hands-On_Machine_Learning_with_Scikit-Learn_Keras_and_Tensorflow_-_Aurelien_Geron.pdf" href="Books\_OceanofPDF.com_Hands-On_Machine_Learning_with_Scikit-Learn_Keras_and_Tensorflow_-_Aurelien_Geron.pdf" class="internal-link" target="_self" rel="noopener nofollow">_OceanofPDF.com_Hands-On_Machine_Learning_with_Scikit-Learn_Keras_and_Tensorflow_-_Aurelien_Geron.pdf</a><br>What I Can Learn:<br>
+<br>Core ML concepts: supervised, unsupervised, and reinforcement learning.<br>
+
+<br>Foundational algorithms like linear regression, logistic regression, and decision trees.<br>
+
+<br>Evaluation metrics (accuracy, precision, recall, F1-score).<br>
+
+<br>Practical implementation using Python’s scikit-learn library, with hands-on examples for building and evaluating models.
+<br><br>Book Name: <a data-href="_OceanofPDF.com_Python_for_Data_Analysis_2nd_Edition_-_Wes_McKinney.pdf" href="Books\_OceanofPDF.com_Python_for_Data_Analysis_2nd_Edition_-_Wes_McKinney.pdf" class="internal-link" target="_self" rel="noopener nofollow">_OceanofPDF.com_Python_for_Data_Analysis_2nd_Edition_-_Wes_McKinney.pdf</a> <br>What I Can Learn:<br>
+<br>In-depth use of NumPy and pandas for data manipulation and analysis.<br>
+
+<br>Data wrangling techniques: cleaning, transforming, and aggregating data.<br>
+
+<br>Visualization with Matplotlib and Seaborn to explore datasets.<br>
+
+<br>Practical skills for preparing data for ML models, including handling real-world datasets.
+<br><br>Book Name: <a data-href="_OceanofPDF.com_Deep_Learning_with_Python_-_Francois_Chollet.pdf" href="Books\_OceanofPDF.com_Deep_Learning_with_Python_-_Francois_Chollet.pdf" class="internal-link" target="_self" rel="noopener nofollow">_OceanofPDF.com_Deep_Learning_with_Python_-_Francois_Chollet.pdf</a>  <br>What I Can Learn:<br>
+<br>Fundamentals of neural networks, including layers, neurons, and activation functions.<br>
+
+<br>How to build and train deep learning models using Keras (within TensorFlow).<br>
+
+<br>Practical applications like image classification and text processing.<br>
+
+<br>Techniques to avoid overfitting, such as dropout and regularization.
+<br><br>Book Name: <a data-href="Andrew Park - Data Science for Beginners_ 4 Books in 1_ Python Programming, Data Analysis, Machine Learning. A Complete Overview to Master The Art of Data Science From Scratch Using Python for Busines.pdf" href="Books\Andrew Park - Data Science for Beginners_ 4 Books in 1_ Python Programming, Data Analysis, Machine Learning. A Complete Overview to Master The Art of Data Science From Scratch Using Python for Busines.pdf" class="internal-link" target="_self" rel="noopener nofollow">Andrew Park - Data Science for Beginners_ 4 Books in 1_ Python Programming, Data Analysis, Machine Learning. A Complete Overview to Master The Art of Data Science From Scratch Using Python for Busines.pdf</a> <br>What I Can Learn:<br>
+<br>Data collection, cleaning, and preprocessing techniques.<br>
+
+<br>Feature engineering to enhance model performance.<br>
+
+<br>Handling missing data, outliers, and data normalization.<br>
+
+<br>Practical workflows for preparing datasets for ML and deep learning models.
+<br><br>Book Name: <a data-href="Introduction to Machine Learning with Python ( PDFDrive.com )-min.pdf" href="Books\Introduction to Machine Learning with Python ( PDFDrive.com )-min.pdf" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Machine Learning with Python ( PDFDrive.com )-min.pdf</a><br>
+What I Can Learn:<br>
+<br>Step-by-step guidance on building ML models with scikit-learn.<br>
+
+<br>Model selection, hyperparameter tuning, and cross-validation.<br>
+
+<br>Evaluating models with metrics like confusion matrices and ROC curves.<br>
+
+<br>Practical projects like classification and regression tasks to solidify your skills.
+<br><br>Book Name:<a data-href="_OceanofPDF.com_Deep_Learning_Adaptive_Computation_and_Machine_Learning_series_-_Ian_Goodfellow.pdf" href="Books\_OceanofPDF.com_Deep_Learning_Adaptive_Computation_and_Machine_Learning_series_-_Ian_Goodfellow.pdf" class="internal-link" target="_self" rel="noopener nofollow">_OceanofPDF.com_Deep_Learning_Adaptive_Computation_and_Machine_Learning_series_-_Ian_Goodfellow.pdf</a><br>What I Can Learn:<br>
+<br>Advanced deep learning concepts, including CNNs, RNNs, and GANs.<br>
+
+<br>Transfer learning for leveraging pre-trained models.<br>
+
+<br>Theoretical foundations of deep learning and optimization.<br>
+
+<br>Cutting-edge techniques for generative models and reinforcement learning.
+<br><br>Book Name: <a data-href="_OceanofPDF.com_Building_Machine_Learning_Powered_Applications_-_Emmanuel_Ameisen.pdf" href="Books\_OceanofPDF.com_Building_Machine_Learning_Powered_Applications_-_Emmanuel_Ameisen.pdf" class="internal-link" target="_self" rel="noopener nofollow">_OceanofPDF.com_Building_Machine_Learning_Powered_Applications_-_Emmanuel_Ameisen.pdf</a><br>What I Can Learn:<br>
+<br>Serializing and saving ML models for production.<br>
+
+<br>Creating APIs with Flask or FastAPI to serve models.<br>
+
+<br>Deploying models on cloud platforms like AWS or Heroku.<br>
+
+<br>Best practices for monitoring and maintaining deployed models.
+<br><br>Book Name: <a data-href="_OceanofPDF.com_pattern_recognition_and_machine_learning_-_cristopher_bishop.pdf" href="Books\_OceanofPDF.com_pattern_recognition_and_machine_learning_-_cristopher_bishop.pdf" class="internal-link" target="_self" rel="noopener nofollow">_OceanofPDF.com_pattern_recognition_and_machine_learning_-_cristopher_bishop.pdf</a><br>What I Can Learn:<br>
+<br>Advanced ML theory, including probabilistic models and Bayesian methods.<br>
+
+<br>Techniques for staying current with evolving AI algorithms.<br>
+
+<br>Insights into research-level ML, preparing you for Kaggle competitions or academic papers.<br>
+
+<br>A deeper understanding of pattern recognition for complex datasets.
+]]></description><link>AI and Machine Learning Learning Roadmap with Book Recommendations.html</link><guid isPermaLink="false">AI and Machine Learning Learning Roadmap with Book Recommendations.md</guid><dc:creator><![CDATA[Md Habibor Rahman Hira]]></dc:creator><pubDate>Sat, 05 Jul 2025 02:44:16 GMT</pubDate></item></channel></rss>
