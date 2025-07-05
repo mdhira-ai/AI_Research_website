@@ -1,42 +1,299 @@
+/* Basic reset for the app */
 #root {
-  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Main layout styles for the AI Research app */
+.webpage-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: #f8f9fa;
+  border-right: 1px solid #e9ecef;
+  min-width: 250px;
+  max-width: 300px;
+  overflow-y: auto;
+}
+
+.sidebar-left {
+  order: 1;
+}
+
+.sidebar-right {
+  order: 3;
+  border-left: 1px solid #e9ecef;
+  border-right: none;
+}
+
+.sidebar-topbar {
+  padding: 1rem;
+  border-bottom: 1px solid #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar-content {
+  padding: 1rem;
+}
+
+.sidebar-section-header {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+/* Document container styles */
+.document-container {
+  flex: 1;
+  order: 2;
+  overflow-y: auto;
+  background-color: #ffffff;
+}
+
+.markdown-preview-view {
+  max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
+  line-height: 1.6;
+}
+
+/* Typography */
+.page-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #212529;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.heading {
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #495057;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+h2.heading {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e9ecef;
+}
+
+/* Content sections */
+.heading-wrapper {
+  margin-bottom: 2rem;
+}
+
+.heading-children {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+/* Lists */
+.el-ul ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.el-ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+/* Links */
+.internal-link {
+  color: #0d6efd;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.internal-link:hover {
+  color: #0a58ca;
+  text-decoration: underline;
+}
+
+/* Collapse indicators */
+.heading-collapse-indicator {
+  margin-right: 0.5rem;
+  cursor: pointer;
+  color: #6c757d;
+}
+
+.collapse-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Tree navigation */
+.tree-container {
+  margin-top: 1rem;
+}
+
+.tree-link {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #495057;
+  border-radius: 0.25rem;
+  transition: background-color 0.15s ease;
+}
+
+.tree-link:hover {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.tree-item-icon {
+  margin-right: 0.5rem;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tree-item-icon svg {
+  width: 16px;
+  height: 16px;
+  color: #6c757d;
+}
+
+/* Theme toggle */
+.theme-toggle-container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.theme-toggle-input {
+  display: none;
+}
+
+.toggle-background {
+  width: 3rem;
+  height: 1.5rem;
+  background-color: #6c757d;
+  border-radius: 0.75rem;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-background::before {
+  content: '';
+  position: absolute;
+  top: 0.125rem;
+  left: 0.125rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle-input:checked + .toggle-background {
+  background-color: #0d6efd;
+}
+
+.theme-toggle-input:checked + .toggle-background::before {
+  transform: translateX(1.5rem);
+}
+
+/* Clickable icons */
+.clickable-icon {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  color: #6c757d;
+  cursor: pointer;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.clickable-icon:hover {
+  color: #495057;
+  background-color: #f8f9fa;
+}
+
+.clickable-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .webpage-container {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .sidebar {
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    order: 2;
+  }
+  
+  .document-container {
+    order: 1;
+  }
+  
+  .markdown-preview-view {
+    padding: 1rem;
+  }
+  
+  .page-title {
+    font-size: 2rem;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+/* Dark theme support */
+@media (prefers-color-scheme: dark) {
+  .sidebar {
+    background-color: #212529;
+    border-color: #495057;
+    color: #f8f9fa;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  
+  .document-container {
+    background-color: #343a40;
+    color: #f8f9fa;
+  }
+  
+  .page-title, .heading {
+    color: #f8f9fa;
+  }
+  
+  h2.heading {
+    border-bottom-color: #495057;
+  }
+  
+  .internal-link {
+    color: #86b7fe;
+  }
+  
+  .internal-link:hover {
+    color: #b6d7ff;
+  }
+  
+  .tree-link {
+    color: #f8f9fa;
+  }
+  
+  .tree-link:hover {
+    background-color: #495057;
+  }
+  
+  .clickable-icon:hover {
+    background-color: #495057;
+  }
 }
